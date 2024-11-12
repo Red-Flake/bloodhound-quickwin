@@ -8,7 +8,7 @@
 
 # pip3 install py2neo
 # pip3 install pandas
-from py2neo import Graph
+from py2neo.database import Graph
 from prettytable import PrettyTable
 import argparse
 import datetime
